@@ -1,0 +1,4 @@
+source;share/calcu_node/local_setup.bash
+source;share/calcu_node/local_setup.dsv
+source;share/calcu_node/local_setup.sh
+source;share/calcu_node/local_setup.zsh

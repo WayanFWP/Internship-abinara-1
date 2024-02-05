@@ -1,0 +1,8 @@
+[0.956s] Invoking command in '/home/wayan1/ros2_workspace_3/build/calcu_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wayan1/ros2_workspace_3/build/calcu_node -- -j2 -l2
+[1.731s] [ 25%] [32mBuilding CXX object CMakeFiles/talk.dir/src/calculator.cpp.o[0m
+[2.103s] gmake[2]: *** wait: No child processes.  Stop.
+[2.103s] gmake[2]: *** Waiting for unfinished jobs....
+[2.103s] gmake[2]: *** wait: No child processes.  Stop.
+[2.104s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talk.dir/all] Error 2
+[2.104s] gmake: *** [Makefile:146: all] Interrupt
+[2.129s] Invoked command in '/home/wayan1/ros2_workspace_3/build/calcu_node' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wayan1/ros2_workspace_3/build/calcu_node -- -j2 -l2

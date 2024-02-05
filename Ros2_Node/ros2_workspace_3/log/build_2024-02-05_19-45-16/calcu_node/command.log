@@ -1,0 +1,2 @@
+Invoking command in '/home/wayan1/ros2_workspace_3/build/calcu_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wayan1/ros2_workspace_3/src/calcu_node -DCMAKE_INSTALL_PREFIX=/home/wayan1/ros2_workspace_3/install/calcu_node
+Invoked command in '/home/wayan1/ros2_workspace_3/build/calcu_node' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wayan1/ros2_workspace_3/src/calcu_node -DCMAKE_INSTALL_PREFIX=/home/wayan1/ros2_workspace_3/install/calcu_node

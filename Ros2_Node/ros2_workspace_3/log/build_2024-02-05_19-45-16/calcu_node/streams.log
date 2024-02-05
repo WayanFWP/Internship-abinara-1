@@ -1,0 +1,44 @@
+[0.562s] Invoking command in '/home/wayan1/ros2_workspace_3/build/calcu_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wayan1/ros2_workspace_3/src/calcu_node -DCMAKE_INSTALL_PREFIX=/home/wayan1/ros2_workspace_3/install/calcu_node
+[1.762s] -- The C compiler identification is GNU 11.4.0
+[2.699s] -- The CXX compiler identification is GNU 11.4.0
+[2.785s] -- Detecting C compiler ABI info
+[3.638s] -- Detecting C compiler ABI info - done
+[3.733s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.743s] -- Detecting C compile features
+[3.747s] -- Detecting C compile features - done
+[3.805s] -- Detecting CXX compiler ABI info
+[4.665s] -- Detecting CXX compiler ABI info - done
+[4.802s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.826s] -- Detecting CXX compile features
+[4.831s] -- Detecting CXX compile features - done
+[4.892s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[6.831s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[7.620s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[8.057s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[8.086s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[8.174s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[8.307s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.469s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.002s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[9.019s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[9.851s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[10.005s] -- Found FastRTPS: /opt/ros/humble/include  
+[10.381s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.499s] -- Looking for pthread.h
+[11.124s] -- Looking for pthread.h - found
+[11.125s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[11.669s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[11.672s] -- Found Threads: TRUE  
+[12.808s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[13.164s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):
+[13.165s]   ament_package_xml() package name 'calcu_node' in '/package.xml' does not
+[13.166s]   match current PROJECT_NAME 'calcu_project'.  You must call project() with
+[13.167s]   the same package name before.
+[13.168s] Call Stack (most recent call first):
+[13.168s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[13.169s]   CMakeLists.txt:35 (ament_lint_auto_find_test_dependencies)
+[13.170s] 
+[13.171s] [0m
+[13.171s] -- Configuring incomplete, errors occurred!
+[13.172s] See also "/home/wayan1/ros2_workspace_3/build/calcu_node/CMakeFiles/CMakeOutput.log".
+[13.217s] Invoked command in '/home/wayan1/ros2_workspace_3/build/calcu_node' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wayan1/ros2_workspace_3/src/calcu_node -DCMAKE_INSTALL_PREFIX=/home/wayan1/ros2_workspace_3/install/calcu_node

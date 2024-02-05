@@ -1,0 +1,17 @@
+/home/wayan1/ros2_workspace_3/install/calcu_node/lib/calcu_node/talk
+/home/wayan1/ros2_workspace_3/install/calcu_node/lib/calcu_node/res
+/home/wayan1/ros2_workspace_3/install/calcu_node/share/ament_index/resource_index/package_run_dependencies/calcu_node
+/home/wayan1/ros2_workspace_3/install/calcu_node/share/ament_index/resource_index/parent_prefix_path/calcu_node
+/home/wayan1/ros2_workspace_3/install/calcu_node/share/calcu_node/environment/ament_prefix_path.sh
+/home/wayan1/ros2_workspace_3/install/calcu_node/share/calcu_node/environment/ament_prefix_path.dsv
+/home/wayan1/ros2_workspace_3/install/calcu_node/share/calcu_node/environment/path.sh
+/home/wayan1/ros2_workspace_3/install/calcu_node/share/calcu_node/environment/path.dsv
+/home/wayan1/ros2_workspace_3/install/calcu_node/share/calcu_node/local_setup.bash
+/home/wayan1/ros2_workspace_3/install/calcu_node/share/calcu_node/local_setup.sh
+/home/wayan1/ros2_workspace_3/install/calcu_node/share/calcu_node/local_setup.zsh
+/home/wayan1/ros2_workspace_3/install/calcu_node/share/calcu_node/local_setup.dsv
+/home/wayan1/ros2_workspace_3/install/calcu_node/share/calcu_node/package.dsv
+/home/wayan1/ros2_workspace_3/install/calcu_node/share/ament_index/resource_index/packages/calcu_node
+/home/wayan1/ros2_workspace_3/install/calcu_node/share/calcu_node/cmake/calcu_nodeConfig.cmake
+/home/wayan1/ros2_workspace_3/install/calcu_node/share/calcu_node/cmake/calcu_nodeConfig-version.cmake
+/home/wayan1/ros2_workspace_3/install/calcu_node/share/calcu_node/package.xml

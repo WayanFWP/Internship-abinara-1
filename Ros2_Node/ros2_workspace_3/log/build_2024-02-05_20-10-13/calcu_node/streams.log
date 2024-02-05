@@ -1,0 +1,7 @@
+[0.573s] Invoking command in '/home/wayan1/ros2_workspace_3/build/calcu_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wayan1/ros2_workspace_3/build/calcu_node -- -j2 -l2
+[1.168s] [35m[1mConsolidate compiler generated dependencies of target talk[0m
+[1.421s] [ 25%] [32mBuilding CXX object CMakeFiles/talk.dir/src/calculator.cpp.o[0m
+[56.269s] gmake[2]: *** [CMakeFiles/talk.dir/build.make:76: CMakeFiles/talk.dir/src/calculator.cpp.o] Interrupt
+[56.330s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talk.dir/all] Interrupt
+[56.344s] gmake: *** [Makefile:146: all] Interrupt
+[56.623s] Invoked command in '/home/wayan1/ros2_workspace_3/build/calcu_node' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wayan1/ros2_workspace_3/build/calcu_node -- -j2 -l2

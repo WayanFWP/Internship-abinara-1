@@ -1,0 +1,6 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/talk.dir/src/calculator.cpp.o[0m
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talk.dir/all] Error 2
+gmake: *** [Makefile:146: all] Interrupt

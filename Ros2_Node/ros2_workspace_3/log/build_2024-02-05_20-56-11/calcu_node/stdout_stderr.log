@@ -1,0 +1,25 @@
+[35m[1mConsolidate compiler generated dependencies of target talk[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/talk.dir/src/calculator.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable talk[0m
+[ 50%] Built target talk
+[35m[1mConsolidate compiler generated dependencies of target res[0m
+[100%] Built target res
+-- Install configuration: ""
+-- Installing: /home/wayan1/ros2_workspace_3/install/calcu_node/lib/calcu_node/talk
+-- Set runtime path of "/home/wayan1/ros2_workspace_3/install/calcu_node/lib/calcu_node/talk" to ""
+-- Up-to-date: /home/wayan1/ros2_workspace_3/install/calcu_node/lib/calcu_node/res
+-- Up-to-date: /home/wayan1/ros2_workspace_3/install/calcu_node/share/ament_index/resource_index/package_run_dependencies/calcu_node
+-- Up-to-date: /home/wayan1/ros2_workspace_3/install/calcu_node/share/ament_index/resource_index/parent_prefix_path/calcu_node
+-- Up-to-date: /home/wayan1/ros2_workspace_3/install/calcu_node/share/calcu_node/environment/ament_prefix_path.sh
+-- Up-to-date: /home/wayan1/ros2_workspace_3/install/calcu_node/share/calcu_node/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/wayan1/ros2_workspace_3/install/calcu_node/share/calcu_node/environment/path.sh
+-- Up-to-date: /home/wayan1/ros2_workspace_3/install/calcu_node/share/calcu_node/environment/path.dsv
+-- Up-to-date: /home/wayan1/ros2_workspace_3/install/calcu_node/share/calcu_node/local_setup.bash
+-- Up-to-date: /home/wayan1/ros2_workspace_3/install/calcu_node/share/calcu_node/local_setup.sh
+-- Up-to-date: /home/wayan1/ros2_workspace_3/install/calcu_node/share/calcu_node/local_setup.zsh
+-- Up-to-date: /home/wayan1/ros2_workspace_3/install/calcu_node/share/calcu_node/local_setup.dsv
+-- Installing: /home/wayan1/ros2_workspace_3/install/calcu_node/share/calcu_node/package.dsv
+-- Up-to-date: /home/wayan1/ros2_workspace_3/install/calcu_node/share/ament_index/resource_index/packages/calcu_node
+-- Up-to-date: /home/wayan1/ros2_workspace_3/install/calcu_node/share/calcu_node/cmake/calcu_nodeConfig.cmake
+-- Up-to-date: /home/wayan1/ros2_workspace_3/install/calcu_node/share/calcu_node/cmake/calcu_nodeConfig-version.cmake
+-- Up-to-date: /home/wayan1/ros2_workspace_3/install/calcu_node/share/calcu_node/package.xml

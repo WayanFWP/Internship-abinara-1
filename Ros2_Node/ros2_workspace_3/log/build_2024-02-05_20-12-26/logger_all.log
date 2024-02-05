@@ -1,0 +1,141 @@
+[3.729s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[3.729s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f266ea49480>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f266ea651b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f266ea651b0>>)
+[4.089s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.089s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.090s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.090s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.090s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[4.090s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.090s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/wayan1/ros2_workspace_3'
+[4.091s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.092s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[4.092s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[4.092s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[4.093s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[4.093s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[4.094s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[4.094s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[4.094s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[4.211s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[4.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[4.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[4.213s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[4.213s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[4.213s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[4.214s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[4.214s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[4.214s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[4.215s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[4.215s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[4.215s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[4.216s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[4.216s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[4.216s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[4.217s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[4.217s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[4.217s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[4.217s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[4.217s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[4.217s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[4.218s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[4.218s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[4.218s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[4.218s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[4.218s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[4.219s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[4.219s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[4.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/calcu_node) by extensions ['ignore', 'ignore_ament_install']
+[4.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/calcu_node) by extension 'ignore'
+[4.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/calcu_node) by extension 'ignore_ament_install'
+[4.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/calcu_node) by extensions ['colcon_pkg']
+[4.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/calcu_node) by extension 'colcon_pkg'
+[4.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/calcu_node) by extensions ['colcon_meta']
+[4.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/calcu_node) by extension 'colcon_meta'
+[4.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/calcu_node) by extensions ['ros']
+[4.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/calcu_node) by extension 'ros'
+[4.254s] DEBUG:colcon.colcon_core.package_identification:Package 'src/calcu_node' with type 'ros.ament_cmake' and name 'calcu_node'
+[4.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[5.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[5.084s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[5.277s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/wayan1/ros2_workspace_3/install
+[5.407s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[5.425s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[6.452s] Level 5:colcon.colcon_core.verb:set package 'calcu_node' build argument 'cmake_args' from command line to 'None'
+[6.453s] Level 5:colcon.colcon_core.verb:set package 'calcu_node' build argument 'cmake_target' from command line to 'None'
+[6.453s] Level 5:colcon.colcon_core.verb:set package 'calcu_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.453s] Level 5:colcon.colcon_core.verb:set package 'calcu_node' build argument 'cmake_clean_cache' from command line to 'False'
+[6.453s] Level 5:colcon.colcon_core.verb:set package 'calcu_node' build argument 'cmake_clean_first' from command line to 'False'
+[6.453s] Level 5:colcon.colcon_core.verb:set package 'calcu_node' build argument 'cmake_force_configure' from command line to 'False'
+[6.453s] Level 5:colcon.colcon_core.verb:set package 'calcu_node' build argument 'ament_cmake_args' from command line to 'None'
+[6.453s] Level 5:colcon.colcon_core.verb:set package 'calcu_node' build argument 'catkin_cmake_args' from command line to 'None'
+[6.453s] Level 5:colcon.colcon_core.verb:set package 'calcu_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.453s] DEBUG:colcon.colcon_core.verb:Building package 'calcu_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wayan1/ros2_workspace_3/build/calcu_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wayan1/ros2_workspace_3/install/calcu_node', 'merge_install': False, 'path': '/home/wayan1/ros2_workspace_3/src/calcu_node', 'symlink_install': False, 'test_result_base': None}
+[6.561s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[6.714s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[6.715s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/wayan1/ros2_workspace_3/src/calcu_node' with build type 'ament_cmake'
+[6.715s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/wayan1/ros2_workspace_3/src/calcu_node'
+[6.943s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[6.944s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.944s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.493s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wayan1/ros2_workspace_3/build/calcu_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wayan1/ros2_workspace_3/build/calcu_node -- -j2 -l2
+[158.815s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wayan1/ros2_workspace_3/build/calcu_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wayan1/ros2_workspace_3/build/calcu_node -- -j2 -l2
+[159.390s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wayan1/ros2_workspace_3/build/calcu_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/wayan1/ros2_workspace_3/build/calcu_node
+[159.698s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wayan1/ros2_workspace_3/build/calcu_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/wayan1/ros2_workspace_3/build/calcu_node
+[159.691s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(calcu_node)
+[161.017s] Level 1:colcon.colcon_core.environment:checking '/home/wayan1/ros2_workspace_3/install/calcu_node' for CMake module files
+[161.031s] Level 1:colcon.colcon_core.environment:checking '/home/wayan1/ros2_workspace_3/install/calcu_node' for CMake config files
+[161.039s] Level 1:colcon.colcon_core.shell:create_environment_hook('calcu_node', 'cmake_prefix_path')
+[161.392s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wayan1/ros2_workspace_3/install/calcu_node/share/calcu_node/hook/cmake_prefix_path.ps1'
+[161.463s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wayan1/ros2_workspace_3/install/calcu_node/share/calcu_node/hook/cmake_prefix_path.dsv'
+[161.474s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wayan1/ros2_workspace_3/install/calcu_node/share/calcu_node/hook/cmake_prefix_path.sh'
+[161.506s] Level 1:colcon.colcon_core.environment:checking '/home/wayan1/ros2_workspace_3/install/calcu_node/lib'
+[161.509s] Level 1:colcon.colcon_core.environment:checking '/home/wayan1/ros2_workspace_3/install/calcu_node/bin'
+[161.510s] Level 1:colcon.colcon_core.environment:checking '/home/wayan1/ros2_workspace_3/install/calcu_node/lib/pkgconfig/calcu_node.pc'
+[161.566s] Level 1:colcon.colcon_core.environment:checking '/home/wayan1/ros2_workspace_3/install/calcu_node/lib/python3.10/site-packages'
+[161.567s] Level 1:colcon.colcon_core.environment:checking '/home/wayan1/ros2_workspace_3/install/calcu_node/bin'
+[161.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/wayan1/ros2_workspace_3/install/calcu_node/share/calcu_node/package.ps1'
+[161.814s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wayan1/ros2_workspace_3/install/calcu_node/share/calcu_node/package.dsv'
+[161.824s] INFO:colcon.colcon_core.shell:Creating package script '/home/wayan1/ros2_workspace_3/install/calcu_node/share/calcu_node/package.sh'
+[161.834s] INFO:colcon.colcon_core.shell:Creating package script '/home/wayan1/ros2_workspace_3/install/calcu_node/share/calcu_node/package.bash'
+[161.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/wayan1/ros2_workspace_3/install/calcu_node/share/calcu_node/package.zsh'
+[161.886s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wayan1/ros2_workspace_3/install/calcu_node/share/colcon-core/packages/calcu_node)
+[162.444s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(calcu_node)
+[162.678s] Level 1:colcon.colcon_core.environment:checking '/home/wayan1/ros2_workspace_3/install/calcu_node' for CMake module files
+[162.682s] Level 1:colcon.colcon_core.environment:checking '/home/wayan1/ros2_workspace_3/install/calcu_node' for CMake config files
+[162.683s] Level 1:colcon.colcon_core.shell:create_environment_hook('calcu_node', 'cmake_prefix_path')
+[162.893s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wayan1/ros2_workspace_3/install/calcu_node/share/calcu_node/hook/cmake_prefix_path.ps1'
+[162.910s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wayan1/ros2_workspace_3/install/calcu_node/share/calcu_node/hook/cmake_prefix_path.dsv'
+[162.912s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wayan1/ros2_workspace_3/install/calcu_node/share/calcu_node/hook/cmake_prefix_path.sh'
+[162.917s] Level 1:colcon.colcon_core.environment:checking '/home/wayan1/ros2_workspace_3/install/calcu_node/lib'
+[162.918s] Level 1:colcon.colcon_core.environment:checking '/home/wayan1/ros2_workspace_3/install/calcu_node/bin'
+[162.918s] Level 1:colcon.colcon_core.environment:checking '/home/wayan1/ros2_workspace_3/install/calcu_node/lib/pkgconfig/calcu_node.pc'
+[162.923s] Level 1:colcon.colcon_core.environment:checking '/home/wayan1/ros2_workspace_3/install/calcu_node/lib/python3.10/site-packages'
+[162.925s] Level 1:colcon.colcon_core.environment:checking '/home/wayan1/ros2_workspace_3/install/calcu_node/bin'
+[163.050s] INFO:colcon.colcon_core.shell:Creating package script '/home/wayan1/ros2_workspace_3/install/calcu_node/share/calcu_node/package.ps1'
+[163.055s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wayan1/ros2_workspace_3/install/calcu_node/share/calcu_node/package.dsv'
+[163.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/wayan1/ros2_workspace_3/install/calcu_node/share/calcu_node/package.sh'
+[163.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/wayan1/ros2_workspace_3/install/calcu_node/share/calcu_node/package.bash'
+[163.073s] INFO:colcon.colcon_core.shell:Creating package script '/home/wayan1/ros2_workspace_3/install/calcu_node/share/calcu_node/package.zsh'
+[163.077s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wayan1/ros2_workspace_3/install/calcu_node/share/colcon-core/packages/calcu_node)
+[163.100s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[163.113s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[163.114s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[163.116s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[164.411s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[164.412s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[164.413s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[164.977s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[165.095s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wayan1/ros2_workspace_3/install/local_setup.ps1'
+[165.102s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/wayan1/ros2_workspace_3/install/_local_setup_util_ps1.py'
+[165.107s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wayan1/ros2_workspace_3/install/setup.ps1'
+[166.541s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wayan1/ros2_workspace_3/install/local_setup.sh'
+[166.544s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/wayan1/ros2_workspace_3/install/_local_setup_util_sh.py'
+[166.546s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wayan1/ros2_workspace_3/install/setup.sh'
+[166.586s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wayan1/ros2_workspace_3/install/local_setup.bash'
+[166.589s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wayan1/ros2_workspace_3/install/setup.bash'
+[166.644s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wayan1/ros2_workspace_3/install/local_setup.zsh'
+[166.646s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wayan1/ros2_workspace_3/install/setup.zsh'

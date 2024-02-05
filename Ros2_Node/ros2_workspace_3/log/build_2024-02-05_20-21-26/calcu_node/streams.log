@@ -1,0 +1,28 @@
+[0.489s] Invoking command in '/home/wayan1/ros2_workspace_3/build/calcu_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wayan1/ros2_workspace_3/build/calcu_node -- -j2 -l2
+[0.893s] [ 25%] [32mBuilding CXX object CMakeFiles/talk.dir/src/calculator.cpp.o[0m
+[68.320s] [ 50%] [32m[1mLinking CXX executable talk[0m
+[71.872s] [ 50%] Built target talk
+[71.996s] [35m[1mConsolidate compiler generated dependencies of target res[0m
+[72.262s] [100%] Built target res
+[72.351s] Invoked command in '/home/wayan1/ros2_workspace_3/build/calcu_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wayan1/ros2_workspace_3/build/calcu_node -- -j2 -l2
+[72.718s] Invoking command in '/home/wayan1/ros2_workspace_3/build/calcu_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/wayan1/ros2_workspace_3/build/calcu_node
+[72.774s] -- Install configuration: ""
+[72.788s] -- Installing: /home/wayan1/ros2_workspace_3/install/calcu_node/lib/calcu_node/talk
+[72.812s] -- Set runtime path of "/home/wayan1/ros2_workspace_3/install/calcu_node/lib/calcu_node/talk" to ""
+[72.818s] -- Up-to-date: /home/wayan1/ros2_workspace_3/install/calcu_node/lib/calcu_node/res
+[72.825s] -- Up-to-date: /home/wayan1/ros2_workspace_3/install/calcu_node/share/ament_index/resource_index/package_run_dependencies/calcu_node
+[72.828s] -- Up-to-date: /home/wayan1/ros2_workspace_3/install/calcu_node/share/ament_index/resource_index/parent_prefix_path/calcu_node
+[72.835s] -- Up-to-date: /home/wayan1/ros2_workspace_3/install/calcu_node/share/calcu_node/environment/ament_prefix_path.sh
+[72.837s] -- Up-to-date: /home/wayan1/ros2_workspace_3/install/calcu_node/share/calcu_node/environment/ament_prefix_path.dsv
+[72.838s] -- Up-to-date: /home/wayan1/ros2_workspace_3/install/calcu_node/share/calcu_node/environment/path.sh
+[72.868s] -- Up-to-date: /home/wayan1/ros2_workspace_3/install/calcu_node/share/calcu_node/environment/path.dsv
+[72.869s] -- Up-to-date: /home/wayan1/ros2_workspace_3/install/calcu_node/share/calcu_node/local_setup.bash
+[72.869s] -- Up-to-date: /home/wayan1/ros2_workspace_3/install/calcu_node/share/calcu_node/local_setup.sh
+[72.870s] -- Up-to-date: /home/wayan1/ros2_workspace_3/install/calcu_node/share/calcu_node/local_setup.zsh
+[72.871s] -- Up-to-date: /home/wayan1/ros2_workspace_3/install/calcu_node/share/calcu_node/local_setup.dsv
+[72.872s] -- Installing: /home/wayan1/ros2_workspace_3/install/calcu_node/share/calcu_node/package.dsv
+[72.883s] -- Up-to-date: /home/wayan1/ros2_workspace_3/install/calcu_node/share/ament_index/resource_index/packages/calcu_node
+[72.886s] -- Up-to-date: /home/wayan1/ros2_workspace_3/install/calcu_node/share/calcu_node/cmake/calcu_nodeConfig.cmake
+[72.887s] -- Up-to-date: /home/wayan1/ros2_workspace_3/install/calcu_node/share/calcu_node/cmake/calcu_nodeConfig-version.cmake
+[72.901s] -- Up-to-date: /home/wayan1/ros2_workspace_3/install/calcu_node/share/calcu_node/package.xml
+[72.910s] Invoked command in '/home/wayan1/ros2_workspace_3/build/calcu_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/wayan1/ros2_workspace_3/build/calcu_node

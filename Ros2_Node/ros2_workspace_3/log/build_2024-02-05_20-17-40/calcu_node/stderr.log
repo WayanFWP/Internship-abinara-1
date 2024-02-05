@@ -1,0 +1,18 @@
+[01m[K/home/wayan1/ros2_workspace_3/src/calcu_node/src/calculator.cpp:[m[K In constructor ‘[01m[KTrigCalculatorNode::TrigCalculatorNode()[m[K’:
+[01m[K/home/wayan1/ros2_workspace_3/src/calcu_node/src/calculator.cpp:14:37:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KTrigCalculatorNode::create_wall_timer(std::chrono::seconds)[m[K’
+   14 |     timer_ = [01;31m[Kthis->create_wall_timer(std::chrono::seconds(4))[m[K, std::bind(&TrigCalculatorNode::publishTrigOperation, this));
+      |              [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/wayan1/ros2_workspace_3/src/calcu_node/src/calculator.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:238:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class DurationRepT, class DurationT, class CallbackT> typename rclcpp::WallTimer<CallbackT>::SharedPtr rclcpp::Node::create_wall_timer(std::chrono::duration<_Rep1, _Period1>, CallbackT, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  238 |   [01;36m[Kcreate_wall_timer[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:238:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/wayan1/ros2_workspace_3/src/calcu_node/src/calculator.cpp:14:37:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+   14 |     timer_ = [01;36m[Kthis->create_wall_timer(std::chrono::seconds(4))[m[K, std::bind(&TrigCalculatorNode::publishTrigOperation, this));
+      |              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/talk.dir/build.make:76: CMakeFiles/talk.dir/src/calculator.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talk.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

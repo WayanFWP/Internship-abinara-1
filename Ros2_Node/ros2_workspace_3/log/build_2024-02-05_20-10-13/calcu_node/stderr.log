@@ -1,0 +1,3 @@
+gmake[2]: *** [CMakeFiles/talk.dir/build.make:76: CMakeFiles/talk.dir/src/calculator.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talk.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt
